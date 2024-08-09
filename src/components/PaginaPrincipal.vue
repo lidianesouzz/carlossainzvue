@@ -6,9 +6,9 @@
 
 <script>
 
-import ImagensPrincipal from './ImagensDiversos.vue';
-import VideoUnico from './VideoUnico.vue';
-import TabelaDiversos from './TabelaDiversos.vue';
+import ImagensPrincipal from '@/components/ImagensDiversas.vue';
+import VideoUnico from '@/components/VideoUnico.vue';
+import TabelaDiversos from '@/components/TabelaDiversos.vue';
 export default {
     name: 'PaginaPrincipal',
     components: {
