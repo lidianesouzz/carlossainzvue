@@ -13,7 +13,8 @@
 <p>Carlos Sainz Jr, piloto da equipe Forza Ferrari de Fórmula 1, paddock 2024.</p>
 </center></head>
 
-  
+  <body>
+    <link rel="stylesheet" href="server.js">
 <div class="containerImagem">
         <img src="https://s2-ge.glbimg.com/DMMkHjGriAvwVTd-98A9EBQmRtI=/0x0:1024x684/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/c/s/g5Dav7T1m2V5P7UBdeEg/gettyimages-1628183683.jpg" alt="imagem 1"
             class="ImagemUnicaAltura400px">
@@ -66,17 +67,12 @@
           </tr>
         </table>
         
-  
+      </body>
   </html>
   </template>
   
   <script>
-  export default {
-    name: 'HelloWorld',
-    props: {
-      msg: String
-    }
-  }
+ 
   </script>
   
   <!-- Add "scoped" attribute to limit CSS to this component only -->
