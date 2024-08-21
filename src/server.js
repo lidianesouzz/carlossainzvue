@@ -1,12 +1,12 @@
-export default {
-    name: 'HelloWorld',
-    props: {
-      msg: String
-    }
-  } 
+// export default {
+//     name: 'HelloWorld',
+//     props: {
+//       msg: String
+//     }
+//   } 
   
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://lidianesouzadoamaral:<21novenbro2006>@lidiss.5j8lc.mongodb.net/?retryWrites=true&w=majority&appName=lidiss";
+const uri = "mongodb+srv://lidianesouzadoamaral:21novenbro2006@lidiss.5j8lc.mongodb.net/?retryWrites=true&w=majority&appName=lidiss";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
