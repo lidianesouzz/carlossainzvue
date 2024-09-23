@@ -1,18 +1,23 @@
 <template>
-    <ImagensPrincipal />
-    <VideoUnico />
-    <TabelaDiversos />
+    <div> <!-- Use uma div ou outro elemento válido -->
+        <h1>Pagina Principal</h1> <!-- Título opcional -->
+        <ImagensPrincipal />
+        <VideoUnico />
+        <TabelaDiversos />
+    </div>
 </template>
 
 <script>
-
-import ImagensPrincipal from '@/components/ImagensDiversas.vue';
+import ImagensPrincipal from './ImagensDiversas.vue';
 import VideoUnico from '@/components/VideoUnico.vue';
 import TabelaDiversos from '@/components/TabelaDiversos.vue';
+
 export default {
     name: 'PaginaPrincipal',
     components: {
-        ImagensPrincipal, VideoUnico, TabelaDiversos,
+        ImagensPrincipal,
+        VideoUnico,
+        TabelaDiversos,
     },
     props: {
         msg: String
@@ -20,5 +25,6 @@ export default {
 }
 </script>
 
-<!--Add "scoped" atribute to limite css to this component only-->
-<style scoped></style>
+<style scoped>
+/* Estilos específicos para este componente */
+</style>
